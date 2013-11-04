@@ -1,0 +1,82 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+	<dict>
+		<!-- matrice de téléchargements. -->
+		<key>items</key>
+		<array>
+			<dict>
+				<!-- une matrice de ressources à télécharger -->
+				<key>assets</key>
+				<array>
+					
+					<!-- paquet-logiciel : l’ipa à installer. -->
+					<dict>
+					
+						<!-- requis. le type de ressource. -->
+						<key>kind</key>
+						<string>software-package</string>
+						
+						<!-- requis. l’URL du fichier à télécharger. -->
+						<key>url</key>
+						<string>{{ fileURL }}</string> <!-- http://clients.operandom.com/rothchild/Colibris.ipa -->
+					
+					</dict>
+					
+					<!-- image-affichage : l’icône à afficher pendant le téléchargement. -->
+					<dict>
+						<key>kind</key>
+						<string>display-image</string>
+						
+						<!-- optionnel. indique si l’icône a besoin d’un effet brillant. -->
+						<key>needs-shine</key>
+						<true />
+						
+						<key>url</key>
+						<string>{{ displayImage }}</string> <!-- http://clients.operandom.com/rothchild/57.png -->
+					</dict>
+					
+					<!-- image-taille-réelle : l’icône large 512 x 512 utilisée par iTunes. -->
+					<dict>
+					
+						<key>kind</key>
+						<string>full-size-image</string>
+						
+						<key>needs-shine</key>
+						<true />
+						
+						<key>url</key>
+						<string>{{ fullSizeImage }}</string> <!-- http://clients.operandom.com/rothchild/512.jpg -->
+					
+					</dict>
+				</array>
+				
+				<key>metadata</key>
+				<dict>
+					
+					<!-- requis -->
+					<key>bundle-identifier</key>
+					<string>{{ bundleIdentifier }}</string> <!-- com.operandom.sequoia.colibris -->
+					
+					<!-- optionnel (logiciel uniquement) -->
+					<key>bundle-version</key>
+					<string>1.0</string>
+					
+					<!-- requis. le type de téléchargement. -->
+					<key>kind</key>
+					<string>software</string>
+					
+					<!-- optionnel. affiché au cours du téléchargement ; généralement, le nom de l’entreprise -->
+					<key>subtitle</key>
+					<string>{{ subtitle }}</string> <!-- Operandom -->
+					
+					<!-- requis. le titre à afficher pendant le téléchargement. -->
+					<key>title</key>
+					<string>{{ title }}</string> <!-- Colibris -->
+					
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>

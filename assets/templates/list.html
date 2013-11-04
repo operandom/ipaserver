@@ -1,0 +1,16 @@
+<h1>Applications</h1>
+{{#files}}
+
+<div class="media application">
+	<a class="pull-left" href="{{ href }}">
+		<img class="media-object" src="{{ src }}" alt="thumbnail">
+	</a>
+	<div class="media-body">
+		<h4 class="media-heading">{{ name }}</h4>
+		<span class="appPath"><strong>path:</strong> {{ path }}</span><br>
+		<span class="appId"><strong>id:</strong> {{ id }}</span><br>
+		<span class="appTeam"><strong>team:</strong> {{ team }}</span>
+	</div>
+</div>
+
+{{/files}}

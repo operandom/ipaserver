@@ -1,6 +1,6 @@
 # IPA Server
 
-A Node.js module to install iOS application on your devices from your desktop.
+A Node.js module to install over-the-air iOS applications.
 It's actually just made for my personal use, so it's just tested on W8.1 and works for me.
 IT'S CLEARLY NOT MADE FOR PRODUCTION.
 
@@ -8,11 +8,6 @@ IT'S CLEARLY NOT MADE FOR PRODUCTION.
 
 ## Getting Started
 Install the module with: `npm install -g ipaserver`
-
-```javascript
-var ipaserver = require('ipaserver');
-ipaserver.start();
-```
 
 ## Documentation
 Be careful with the depth of the recursing search, it's not optimized and can use a lot of memory.
@@ -23,7 +18,7 @@ $ ipaserver [-p port] [-a address] [-d depthRecursing] [/path/to/IPAs/folder]
 
 ## Examples
 
-Default usage (your first ip4 found on ethernet on port 3000
+Default usage (your first ip4 address found on ethernet on port 3000)
 ```bash
 /your/path/to/IPAs/folder:$ ipaserver
 ```

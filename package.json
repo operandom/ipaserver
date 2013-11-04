@@ -32,6 +32,13 @@
 		"ansi": "~0.2",
 		"proto-typer": "~0"
 	},
+	"keywords": [
+		"cli",
+		"http",
+		"server",
+		"ios",
+		"ipa"
+	],
 	"devDependencies": {
 		"grunt-contrib-jshint": "~0.6.0",
 		"grunt-contrib-nodeunit": "~0.2.0",

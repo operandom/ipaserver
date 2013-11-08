@@ -18,7 +18,7 @@ $ ipaserver [-p port] [-a address] [-d depthRecursing] [/path/to/IPAs/folder]
 
 ## Examples
 
-Default usage (your first ip4 address found on port 3000)
+Default usage (Launch server on your first ip4 address found and on the port 3000)
 ```bash
 /your/path/to/IPAs/folder:$ ipaserver
 ```

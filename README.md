@@ -4,7 +4,7 @@ A Node.js module to install over-the-air iOS applications.
 It's actually just made for my personal use, so it's just tested on W8.1 and works for me.
 IT'S CLEARLY NOT MADE FOR PRODUCTION.
 
-![web preview] (./assets/webview.jpg?raw=true)
+![web preview] (https://raw.github.com/operandom/ipaserver/master/assets/webview.jpg)
 
 ## Getting Started
 Install the module with: `npm install -g ipaserver`
@@ -18,7 +18,7 @@ $ ipaserver [-p port] [-a address] [-d depthRecursing] [/path/to/IPAs/folder]
 
 ## Examples
 
-Default usage (your first ip4 address found on ethernet on port 3000)
+Default usage (your first ip4 address found on port 3000)
 ```bash
 /your/path/to/IPAs/folder:$ ipaserver
 ```

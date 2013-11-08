@@ -1,6 +1,6 @@
 {
 	"name": "ipaserver",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"bin": "bin/ipaserver",
 	"main": "lib/ipaserver.js",
 	"description": "A Node.js module to install over-the-air iOS applications. It's actually just made for my personal use, so it's just tested on W8.1 and works for me. IT'S CLEARLY NOT MADE FOR PRODUCTION.",
